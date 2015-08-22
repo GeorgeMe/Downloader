@@ -1,0 +1,37 @@
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/btn_stop"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:textColor="@color/cpb_white"
+        android:layout_weight="0.3"/>
+    <com.dd.CircularProgressButton
+        android:id="@+id/btn"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:textColor="@color/cpb_white"
+        android:layout_weight="0.3"
+        android:textSize="18sp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_iconComplete="@drawable/ic_action_accept"
+        app:cpb_iconError="@drawable/ic_action_cancel"
+        app:cpb_textIdle="@string/Download"/>
+    <com.dd.CircularProgressButton
+        android:id="@+id/btn_Download"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:textColor="@color/cpb_white"
+        android:layout_weight="0.3"
+        android:textSize="18sp"
+        app:cpb_cornerRadius="48dp"
+        app:cpb_iconComplete="@drawable/ic_action_accept"
+        app:cpb_iconError="@drawable/ic_action_cancel"
+        app:cpb_textIdle="@string/Download"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Downloader</string>
+    <string name="Download">Download</string>
+    <string name="Upload">Upload</string>
+    <string name="Error">Error</string>
+    <string name="Complete">Complete</string>
+    <string name="data">http://www.yunyankeji.com:1222/dzy/android/muwanzi/ToyBricks.json</string>
+</resources>
